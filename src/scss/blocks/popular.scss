@@ -1,0 +1,135 @@
+.popular {
+	padding-top: 42px;
+	padding-bottom: 50px;
+	&__top {
+		margin-bottom: 35px;
+		&-link {
+			margin-right: 26px;
+		}
+	}
+	&__item {
+		display: block;
+		padding: 48px 44px 35px;
+		background-color: #f8f8f8;
+		border-radius: 3px;
+		transition: all 0.3s;
+		&:hover {
+			background-color: #efecea;
+			transition: all 0.3s;
+			.popular__arrow {
+				opacity: 1;
+				transition: all 0.3s;
+			}
+		}
+	}
+	&__caption {
+		max-width: 300px;
+		min-height: 80px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 140%;
+		color: #5c5959;
+		margin-bottom: 45px;
+	}
+	&__img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	&__arrow {
+		position: absolute;
+		width: 24px;
+		height: 13px;
+		right: 35px;
+		bottom: 35px;
+		opacity: 0;
+		transition: all 0.3s;
+	}
+	&__bottom {
+		display: none;
+	}
+}
+@media (max-width: 1580px) {
+	.popular {
+		padding-top: 40px;
+		&__top {
+			margin-bottom: 30px;
+			&-link {
+				margin-right: 25px;
+			}
+		}
+	}
+}
+@media (max-width: 1420px) {
+	.popular {
+		&__caption {
+			font-size: 18px;
+			margin-bottom: 30px;
+		}
+		&__item {
+			padding: 30px 25px;
+		}
+		&__img {
+			width: 180px;
+			height: 180px;
+		}
+	}
+}
+@media (max-width: 1095px) {
+	.popular {
+		padding-top: 20px;
+		padding-bottom: 30px;
+		&__top {
+			margin-bottom: 20px;
+		}
+		&__caption {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+		&__item {
+			padding: 25px ​20px;
+		}
+		&__img {
+			width: 160px;
+			height: 160px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.popular {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		&__top {
+			&-box {
+				display: none;
+			}
+		}
+		&__slick {
+			padding: 0px 15px;
+			margin: 0px -15px;
+		}
+		&__caption {
+			font-size: 14px;
+			min-height: 55;
+			margin-bottom: 25px;
+		}
+		&__item {
+			padding: 20px ​20px;
+		}
+		&__img {
+			width: 120px;
+			height: 120px;
+		}
+		&__bottom {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 17px;
+			.popular__top-box {
+				display: flex;
+				width: 100%;
+			}
+		}
+	}
+}

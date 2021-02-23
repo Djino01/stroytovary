@@ -1,0 +1,67 @@
+@@include('inc/doc-start.html', {
+	"title": "Регистрация"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+@@include('inc/catalog-menu.html', {})
+
+<div class="page-body main-body">
+	<div class="wrapper">
+		<div class="page-body-top">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li>Регистрация</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-body__container">
+			<div class="main-body__box">
+				<div class="main-body__list flex">
+					<a href="#" class="main-body__link flex-center">Вход</a>
+					<a href="#" class="main-body__link flex-center active">Регистрация</a>
+				</div>
+				<form action="#" class="main-body__form form">
+					<label class="form__label">
+						<div class="form__caption">Имя</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">Фамилия</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">Логин*</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">Пароль*</div>
+						<input type="text" name="password" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">E-mail*</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">Подтвердите пароль*</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" value="checkbox" checked>
+						<span>Cогласен на обработку моих персональных данных</span>
+					</label>
+					<button class="main-body__btn btn-item btn-item_big btn-item_dark">Зарегистрироваться</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

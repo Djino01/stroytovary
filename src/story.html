@@ -1,0 +1,94 @@
+@@include('inc/doc-start.html', {
+	"title": "История заказов"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+@@include('inc/catalog-menu.html', {})
+
+<div class="page-body">
+	<div class="wrapper">
+		<div class="page-body-top">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li>Личный кабинет</li>
+				</ul>
+			</div>
+			<div class="page-body__title title title_big">Личный кабинет</div>
+		</div>
+		<div class="page-body__wrap page-body__wrap_item">
+			<div class="sidebar">
+				<div class="sidebar__menu">
+					<ul>
+						<li>
+							<a href="#">Персональные данные</a>
+						</li>
+						<li class="active">
+							<a href="#">История заказов</a>
+						</li>
+						<li>
+							<a href="#">Смена пароля</a>
+						</li>
+						<li>
+							<a href="#">Выход</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page-body__content">
+				<div class="cabinet">
+					<div class="cabinet__caption">История заказов</div>
+					<div class="cabinet-story horizontal dragscroll">
+						<div class="cabinet-story__table">
+							<table>
+								<thead>
+									<tr>
+										<th>Заказ</th>
+										<th>Дата</th>
+										<th>Сумма</th>
+										<th>Статус</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>010212</td>
+										<td>01.09.2021</td>
+										<td>24 000 руб.</td>
+										<td>Оплачен</td>
+									</tr>
+									<tr>
+										<td>010212</td>
+										<td>01.09.2021</td>
+										<td>24 000 руб.</td>
+										<td>Оплачен</td>
+									</tr>
+									<tr>
+										<td>010212</td>
+										<td>01.09.2021</td>
+										<td>24 000 руб.</td>
+										<td>Оплачен</td>
+									</tr>
+									<tr>
+										<td>010212</td>
+										<td>01.09.2021</td>
+										<td>24 000 руб.</td>
+										<td>Оплачен</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

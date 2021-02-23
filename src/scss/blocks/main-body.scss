@@ -1,0 +1,147 @@
+.main-body {
+	background-color: #f8f8f8;
+	padding-bottom: 150px;
+	&__box {
+		width: 600px;
+		background-color: #fff;
+		border-radius: 5px;
+		margin: 0px auto;
+	}
+	&__link {
+		width: 50%;
+		height: 76px;
+		background-color: #f7f0f0;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 120%;
+		letter-spacing: -0.02em;
+		color: #c6bdbd;
+		transition: all 0.3s;
+		&.active {
+			color: #5c5959;
+			background-color: #fff;
+			transition: all 0.3s;
+		}
+		&:hover {
+			color: #5c5959;
+			transition: all 0.3s;
+		}
+		&:first-child {
+			border-radius: 5px 0px 0px 0px;
+		}
+		&:last-child {
+			border-radius: 0px 5px 0px 0px;
+		}
+	}
+	&__form {
+		width: 100%;
+		padding: 40px 75px 40px;
+	}
+	&__btn {
+		margin-top: 35px;
+		font-size: 16px;
+		text-transform: none;
+		background-color: #000000;
+		color: #fff;
+	}
+	&__bottom {
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 110%;
+		color: #5c5959;
+		&-link {
+			display: block;
+			text-align: right;
+			color: #c2bcbc;
+			transition: all 0.3s;
+			&:hover {
+				color: #c76f15;
+				transition: all 0.3s;
+			}
+		}
+	}
+	&__social {
+		margin-top: 45px;
+		&-caption {
+			margin-bottom: 25px;
+			text-align: center;
+		}
+		&-link {
+			display: block;
+			width: 30px;
+			height: 30px;
+			margin: 0px 7px;
+			transition: all 0.3s;
+			&:hover {
+				transform: scale(1.1);
+				transition: all 0.3s;
+			}
+		}
+	}
+	.form .checkbox {
+		margin-top: 40px;
+		margin-left: 0;
+		margin-bottom: 0px;
+	}
+	.checkbox + .main-body__btn {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 1580px) {
+	.main-body {
+		padding-bottom: 120px;
+	}
+}
+@media (max-width: 1090px) {
+	.main-body {
+		&__container {
+			margin-top: 40px;
+		}
+	}
+}
+@media (max-width: 1010px) {
+	.main-body {
+		padding-bottom: 80px;
+		&__container {
+			margin-top: 40px;
+		}
+	}
+}
+@media (max-width: 640px) {
+	.main-body {
+		padding-bottom: 80px;
+		&__container {
+			margin-top: 40px;
+		}
+		&__box {
+			width: 100%;
+		}
+		&__link {
+			height: 46px;
+			font-size: 12px;
+		}
+		&__form {
+			padding: 25px 15px 40px;
+		}
+		&__btn {
+			margin-top: 30px;
+			font-size: 14px;
+		}
+		&__bottom {
+			margin-top: 30px;
+			font-size: 12px;
+			&-link {
+				display: none;
+			}
+		}
+		.form .checkbox {
+			margin-top: 25px;
+			padding: 0px;
+		}
+		.checkbox + .main-body__btn {
+			margin-top: 30px;
+			margin-bottom: 0px;
+		}
+	}
+}

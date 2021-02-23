@@ -1,0 +1,67 @@
+@@include('inc/doc-start.html', {
+	"title": "Вход"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+@@include('inc/catalog-menu.html', {})
+
+<div class="page-body main-body">
+	<div class="wrapper">
+		<div class="page-body-top">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li>Вход</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-body__container">
+			<div class="main-body__box">
+				<div class="main-body__list flex">
+					<a href="#" class="main-body__link flex-center active">Вход</a>
+					<a href="#" class="main-body__link flex-center">Регистрация</a>
+				</div>
+				<form action="#" class="main-body__form form">
+					<label class="form__label">
+						<div class="form__caption">Логин или Email*</div>
+						<input type="text" name="name" class="form__field field" placeholder="">
+					</label>
+					<label class="form__label">
+						<div class="form__caption">Пароль*</div>
+						<input type="text" name="password" class="form__field field" placeholder="">
+					</label>
+					<button class="main-body__btn btn-item btn-item_big btn-item_dark">Войти в личный кабинет</button>
+					<div class="main-body__bottom">
+						<a href="#" class="main-body__bottom-link">Забыли пароль?</a>
+						<div class="main-body__social">
+							<div class="main-body__social-caption">Можно войти и через соцсети</div>
+							<div class="main-body__social-list flex-center">
+								<a href="#" class="main-body__social-link img-contain">
+									<img src="img/social/fb.svg" alt="">
+								</a>
+								<a href="#" class="main-body__social-link img-contain">
+									<img src="img/social/vk.svg" alt="">
+								</a>
+								<a href="#" class="main-body__social-link img-contain">
+									<img src="img/social/twitter.svg" alt="">
+								</a>
+								<a href="#" class="main-body__social-link img-contain">
+									<img src="img/social/google.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

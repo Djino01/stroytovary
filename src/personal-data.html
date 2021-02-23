@@ -1,0 +1,69 @@
+@@include('inc/doc-start.html', {
+	"title": "Персональные данные"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+@@include('inc/catalog-menu.html', {})
+
+<div class="page-body">
+	<div class="wrapper">
+		<div class="page-body-top">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li>Личный кабинет</li>
+				</ul>
+			</div>
+			<div class="page-body__title title title_big">Личный кабинет</div>
+		</div>
+		<div class="page-body__wrap page-body__wrap_item">
+			<div class="sidebar">
+				<div class="sidebar__menu">
+					<ul>
+						<li class="active">
+							<a href="#">Персональные данные</a>
+						</li>
+						<li>
+							<a href="#">История заказов</a>
+						</li>
+						<li>
+							<a href="#">Смена пароля</a>
+						</li>
+						<li>
+							<a href="#">Выход</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page-body__content">
+				<div class="cabinet">
+					<div class="cabinet__caption">Персональные данные</div>
+					<form action="#" class="cabinet__form">
+						<div class="cabinet__row">
+							<div class="cabinet__coll">
+								<input type="text" name="name" class="cabinet__field field" placeholder="Имя">
+								<input type="text" name="name" class="cabinet__field field" placeholder="Фамилия">
+								<input type="text" name="name" class="cabinet__field field" placeholder="Email">
+							</div>
+							<div class="cabinet__coll">
+								<input type="text" name="name" class="cabinet__field field phone-mask" placeholder="Мобильный телефон">
+								<input type="text" name="name" class="cabinet__field field" placeholder="Город">
+								<input type="text" name="name" class="cabinet__field field" placeholder="Почтовый индекс">
+							</div>
+						</div>
+						<button class="cabinet__btn btn-item btn-item_big">Сохранить изменения</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

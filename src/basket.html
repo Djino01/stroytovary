@@ -1,0 +1,155 @@
+@@include('inc/doc-start.html', {
+	"title": "Корзина"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+@@include('inc/catalog-menu.html', {})
+
+<div class="page-body">
+	<div class="wrapper">
+		<div class="page-body-top">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li>Корзина</li>
+				</ul>
+			</div>
+		</div>
+		<div class="basket">
+			<div class="basket__top flex">
+				<div class="basket__top-left flex">
+					<div class="page-body__title title title_big">Корзина</div>
+					<a href="#" class="link-arrow flex-center">
+						<svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M5.64062 1.03738L4.74387 0.140625L0.937625 3.94687L0.938 3.94725L0.937348 3.9479L4.7436 7.75415L5.64035 6.8574L2.73047 3.94753L5.64062 1.03738Z" fill="#C2BCBC"/>
+						</svg>	
+						<span>Вернуться к покупкам</span>					
+					</a>
+				</div>
+				<div class="basket__top-right">
+					<a href="#" class="link">Очистить все</a>
+				</div>
+			</div>
+			<div class="basket__body">
+				<div class="basket__left">
+					<div class="basket__row">
+						<div class="basket__coll flex">
+							<div class="basket__coll-box basket__coll-box_1">
+								<div class="basket__img flex-center">
+									<img src="img/basket/img-1.png" alt="">
+								</div>
+								<div class="basket__caption">Грунтовка универсальная<br> КНАУФ-Тифенгрунд, 10 кг</div>
+							</div>
+							<div class="basket__coll-box basket__coll-box_2">
+								<div class="quantity">
+									<button class="quantity-btn  quantity-btn-basket btn-minus disabled" tabindex="-1">
+										<span>-</span>
+									</button>
+									<div class="quantity-value">
+										<input name="form[]" value="1" tabindex="-1" type="text" spellcheck="false">
+									</div>
+									<button class="quantity-btn  quantity-btn-basket btn-plus" tabindex="-1">
+										<span>+</span>
+									</button>
+								</div>
+								<div class="available flex">
+									<img src="img/product/check.svg" alt="">
+									<span>В наличии</span>	
+								</div>
+							</div>
+							<div class="basket__coll-box basket__coll-box_3">
+								<div class="basket__price">718.00 руб.</div>
+								<div class="basket__delete svg-contain">
+									<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.711 2.88431C13.9774 2.88431 14.193 3.0999 14.193 3.36634V4.81244H1.66014V3.36634C1.66014 3.0999 1.87574 2.88431 2.14217 2.88431H5.5164V1.43821C5.5164 1.17177 5.732 0.956177 5.99844 0.956177H9.8547C10.1211 0.956177 10.3367 1.17177 10.3367 1.43821V2.88431H13.711ZM9.37266 1.92024H6.48047V2.88431H9.37266V1.92024ZM2.62442 6.74057H1.17832C0.911886 6.74057 0.696289 6.52497 0.696289 6.25854C0.696289 5.9921 0.911886 5.7765 1.17832 5.7765H14.6752C14.9417 5.7765 15.1573 5.9921 15.1573 6.25854C15.1573 6.52497 14.9417 6.74057 14.6752 6.74057H13.2291V16.9275C13.2291 17.194 13.0135 17.4096 12.7471 17.4096H3.10645C2.84002 17.4096 2.62442 17.194 2.62442 16.9275V6.74057ZM5.03458 15.9635C5.30102 15.9635 5.51662 15.7479 5.51662 15.4814V7.70463C5.51662 7.4382 5.30102 7.2226 5.03458 7.2226C4.76815 7.2226 4.55255 7.4382 4.55255 7.70463V15.4814C4.55255 15.7479 4.76815 15.9635 5.03458 15.9635ZM7.92678 15.9635C8.19322 15.9635 8.40881 15.7479 8.40881 15.4814V7.70463C8.40881 7.4382 8.19322 7.2226 7.92678 7.2226C7.66035 7.2226 7.44475 7.4382 7.44475 7.70463V15.4814C7.44475 15.7479 7.66035 15.9635 7.92678 15.9635ZM10.819 15.9635C11.0854 15.9635 11.301 15.7479 11.301 15.4814V7.70463C11.301 7.4382 11.0854 7.2226 10.819 7.2226C10.5525 7.2226 10.3369 7.4382 10.3369 7.70463V15.4814C10.3369 15.7479 10.5525 15.9635 10.819 15.9635Z" fill="#C2BCBC"/>
+									</svg>									
+								</div>
+							</div>
+						</div>
+						<div class="basket__coll flex">
+							<div class="basket__coll-box basket__coll-box_1">
+								<div class="basket__img flex-center">
+									<img src="img/basket/img-2.png" alt="">
+								</div>
+								<div class="basket__caption">Клей ПВА ТЕКС строительный "Универсал", 3 кг</div>
+							</div>
+							<div class="basket__coll-box basket__coll-box_2">
+								<div class="quantity">
+									<button class="quantity-btn  quantity-btn-basket btn-minus disabled" tabindex="-1">
+										<span>-</span>
+									</button>
+									<div class="quantity-value">
+										<input name="form[]" value="1" tabindex="-1" type="text" spellcheck="false">
+									</div>
+									<button class="quantity-btn  quantity-btn-basket btn-plus" tabindex="-1">
+										<span>+</span>
+									</button>
+								</div>
+								<div class="available flex">
+									<img src="img/product/check.svg" alt="">
+									<span>В наличии</span>	
+								</div>
+							</div>
+							<div class="basket__coll-box basket__coll-box_3">
+								<div class="basket__price">250.00 руб</div>
+								<div class="basket__delete svg-contain">
+									<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.711 2.88431C13.9774 2.88431 14.193 3.0999 14.193 3.36634V4.81244H1.66014V3.36634C1.66014 3.0999 1.87574 2.88431 2.14217 2.88431H5.5164V1.43821C5.5164 1.17177 5.732 0.956177 5.99844 0.956177H9.8547C10.1211 0.956177 10.3367 1.17177 10.3367 1.43821V2.88431H13.711ZM9.37266 1.92024H6.48047V2.88431H9.37266V1.92024ZM2.62442 6.74057H1.17832C0.911886 6.74057 0.696289 6.52497 0.696289 6.25854C0.696289 5.9921 0.911886 5.7765 1.17832 5.7765H14.6752C14.9417 5.7765 15.1573 5.9921 15.1573 6.25854C15.1573 6.52497 14.9417 6.74057 14.6752 6.74057H13.2291V16.9275C13.2291 17.194 13.0135 17.4096 12.7471 17.4096H3.10645C2.84002 17.4096 2.62442 17.194 2.62442 16.9275V6.74057ZM5.03458 15.9635C5.30102 15.9635 5.51662 15.7479 5.51662 15.4814V7.70463C5.51662 7.4382 5.30102 7.2226 5.03458 7.2226C4.76815 7.2226 4.55255 7.4382 4.55255 7.70463V15.4814C4.55255 15.7479 4.76815 15.9635 5.03458 15.9635ZM7.92678 15.9635C8.19322 15.9635 8.40881 15.7479 8.40881 15.4814V7.70463C8.40881 7.4382 8.19322 7.2226 7.92678 7.2226C7.66035 7.2226 7.44475 7.4382 7.44475 7.70463V15.4814C7.44475 15.7479 7.66035 15.9635 7.92678 15.9635ZM10.819 15.9635C11.0854 15.9635 11.301 15.7479 11.301 15.4814V7.70463C11.301 7.4382 11.0854 7.2226 10.819 7.2226C10.5525 7.2226 10.3369 7.4382 10.3369 7.70463V15.4814C10.3369 15.7479 10.5525 15.9635 10.819 15.9635Z" fill="#C2BCBC"/>
+									</svg>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="basket__right">
+					<a href="#" class="link">Очистить все</a>
+					<div class="basket__right-content">
+						<div class="basket__right-caption flex-center">В корзине</div>
+						<div class="basket__right-container">
+							<div class="basket__box">
+								<div class="basket__block">
+									<div class="basket__block-cation">Всего товаров:</div>
+									<div class="basket__block-value">2 шт </div>
+								</div>
+								<div class="basket__block">
+									<div class="basket__block-cation">Сумма:</div>
+									<div class="basket__block-price">968.00 руб.</div>
+								</div>
+							</div>
+							<a href="#" class="basket__btn btn-item">Оформить заказ</a>
+							<div class="special-buttons flex">
+								<div class="special-buttons__btn flex">
+									<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 12L1.16769 6.17945C0.516956 5.5854 0.110554 4.79685 0.0194858 3.95155C-0.0715825 3.10626 0.158473 2.25797 0.669459 1.5549C3.7499 -2.27313 7.5 2.17191 7.5 2.17191C7.5 2.17191 11.2501 -2.27313 14.3305 1.5549C14.8415 2.25797 15.0716 3.10626 14.9805 3.95155C14.8894 4.79685 14.483 5.5854 13.8323 6.17945L7.5 12Z" fill="#ADA7A7"/>
+									</svg>											
+									<span>
+										<div>В избранное</div>
+										<div>Добавлено</div>
+									</span>
+								</div>
+								<div class="special-buttons__btn flex">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.20762 0H8.04815C8.30962 0 8.52157 0.211958 8.52157 0.473422V12.7824C8.52157 13.0439 8.30962 13.2558 8.04815 13.2558H5.20762C4.94616 13.2558 4.7342 13.0439 4.7342 12.7824V0.473422C4.7342 0.211958 4.94616 0 5.20762 0ZM12.7824 3.78736H9.94184C9.68038 3.78736 9.46842 3.99932 9.46842 4.26079V12.7824C9.46842 13.0438 9.68038 13.2558 9.94184 13.2558H12.7824C13.0438 13.2558 13.2558 13.0438 13.2558 12.7824V4.26079C13.2558 3.99932 13.0438 3.78736 12.7824 3.78736ZM3.31395 7.57474H0.473422C0.211958 7.57474 0 7.7867 0 8.04817V12.7824C0 13.0438 0.211958 13.2558 0.473422 13.2558H3.31395C3.57542 13.2558 3.78738 13.0438 3.78738 12.7824V8.04817C3.78738 7.7867 3.57542 7.57474 3.31395 7.57474Z" fill="#ADA7A7"/>
+									</svg>											
+									<span>
+										<div>К сравнению</div>
+										<div>Добавлено</div>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')
